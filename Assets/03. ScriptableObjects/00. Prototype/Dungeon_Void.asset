@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: effec539c7af1b140965f07afdc7ea9b, type: 3}
+  m_Name: Dungeon_Void
+  m_EditorClassIdentifier: StatusWindow.Runtime::StatusWindow.Progression.DungeonDefinition
+  id: void_rift
+  displayName: "\uACF5\uD5C8 \uADE0\uC5F4"
+  description: "\uBAA8\uB4E0 \uC131\uC7A5 \uCD95\uACFC \uC804\uC220 \uC9C0\uCE68\uC744
+    \uC694\uAD6C\uD558\uB294 \uCD5C\uC2EC\uBD80 \uADE0\uC5F4\uC785\uB2C8\uB2E4."
+  requiredLevel: 12
+  floorCount: 6
+  floorTimeLimit: 26
+  baseKillTarget: 8
+  killTargetPerFloor: 5
+  baseEnemyHealth: 82
+  enemyHealthPerFloor: 40
+  enemyHealthPerKill: 5
+  enemyDamageBase: 16
+  enemyDamagePerFloor: 5
+  clearGoldReward: 270
+  clearExperienceReward: 190
+  maximumMasteryRank: 10
+  damageBonusPerMasteryRank: 0.01
+  enemies:
+  - {fileID: 11400000, guid: e928e80a8d0119d4fb4d10d8a67fa44c, type: 2}
+  - {fileID: 11400000, guid: bf74c2beefb7d964a8083f9b53c74ccc, type: 2}
+  - {fileID: 11400000, guid: bf74c2beefb7d964a8083f9b53c74ccc, type: 2}
+  floorBoss: {fileID: 11400000, guid: bf74c2beefb7d964a8083f9b53c74ccc, type: 2}

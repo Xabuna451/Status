@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c89ffd89cd8339749a4e65897765b71b, type: 3}
+  m_Name: StatusWindowPrototypeCatalog
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.PrototypeCatalog
+  startingGold: 80
+  startingStatPoints: 5
+  statPointGoldCost: 25
+  progression: {fileID: 11400000, guid: 0a683c9174f951b459309d97abe35c18, type: 2}
+  skillNodes:
+  - {fileID: 11400000, guid: 3cfd527ed566e0c409fcd44737e927bc, type: 2}
+  - {fileID: 11400000, guid: 75421affdb0dbef418f0d5d5d5debef7, type: 2}
+  - {fileID: 11400000, guid: fa0cc422f1901a443b8c9e61d0fb6716, type: 2}
+  - {fileID: 11400000, guid: 9eb50978739bcad42ad5b103cdd7be07, type: 2}
+  - {fileID: 11400000, guid: c1e8e705cc31b094fbf59ab0c842d777, type: 2}
+  - {fileID: 11400000, guid: 95347ecf301fbb9408076163a0770b70, type: 2}
+  - {fileID: 11400000, guid: 911e7f5e3b3f0c848a90d7ffc2a190e7, type: 2}
+  - {fileID: 11400000, guid: d0bcb45f1e76db24eb8017c33c0dabde, type: 2}
+  - {fileID: 11400000, guid: a43587e6a80ed9e46807ddaf761c03d7, type: 2}
+  equipment:
+  - {fileID: 11400000, guid: b252b23298b90c64089d4928918b6a84, type: 2}
+  - {fileID: 11400000, guid: 493a25851c5c5684f9da8a035b673c21, type: 2}
+  - {fileID: 11400000, guid: 9efda6a8bc3eb0b409b2b17a40d5da6c, type: 2}
+  - {fileID: 11400000, guid: b7a937bf54781fb44b00f3df7793d165, type: 2}
+  - {fileID: 11400000, guid: 127518b86b02e13408188c02106ca9ac, type: 2}
+  - {fileID: 11400000, guid: 9791f8c48e64b694f867acb565d5203d, type: 2}
+  - {fileID: 11400000, guid: 8e75e7c47377d3e45aae5276d0b66a34, type: 2}
+  - {fileID: 11400000, guid: 843c42da241936640a97b2b43418a94a, type: 2}
+  - {fileID: 11400000, guid: 9140d3ecf9162e14e8bd1a40c18c0676, type: 2}
+  - {fileID: 11400000, guid: ea40f29dfb6606a41a72717da430ab5a, type: 2}
+  - {fileID: 11400000, guid: a9c11261087be744a8cbd9b5a99e9910, type: 2}
+  - {fileID: 11400000, guid: 754e374fefc13994ba8f39e9ca5af350, type: 2}
+  equipmentSets:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 23a901eac64fe8a409e4872f677757e9, type: 2}
+  legacyUpgrades:
+  - {fileID: 11400000, guid: 51ba6f717c1db7746af54920e5da196c, type: 2}
+  - {fileID: 11400000, guid: 3d1b7ffeb92526245a909806b16c5fd8, type: 2}
+  - {fileID: 11400000, guid: f7a2f6bb53a4aaa4dbf9f0a3b3ee8fc3, type: 2}
+  dungeonProtocols:
+  - {fileID: 11400000, guid: f122b87e5f56d1f45a905e31fbe5abad, type: 2}
+  - {fileID: 11400000, guid: 1b698b76fcccc9a478d313d2a723ba6f, type: 2}
+  - {fileID: 11400000, guid: 388ac99783c2945439a88101902d249a, type: 2}
+  - {fileID: 11400000, guid: cde1f726950bd0646b1dbd9387f58949, type: 2}
+  - {fileID: 11400000, guid: 77467bf6c5763494ebae42751ab59d55, type: 2}
+  combatDirectives:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: b8fee80fbd5cd1644a06891f43aca68b, type: 2}
+  milestones:
+  - {fileID: 11400000, guid: aa1626bd197882643b2f644609cec572, type: 2}
+  - {fileID: 11400000, guid: 718649edd2f1f4f46b75149408064ffc, type: 2}
+  - {fileID: 11400000, guid: ef971998f064b7942b28a4cb8ff21f76, type: 2}
+  - {fileID: 11400000, guid: 687b9318a4bf2f046a769737cbcd4fb7, type: 2}
+  - {fileID: 11400000, guid: 5a8d2d68fc96ce94c83a27d2d12e987f, type: 2}
+  - {fileID: 11400000, guid: d2e6a7d73c7ac6448a4eea5a88ac6721, type: 2}
+  - {fileID: 11400000, guid: 348f70ab44183494ab7e1424db04d92d, type: 2}
+  dungeon: {fileID: 11400000, guid: 42c7a9924e8564d47aac4c85b43e126d, type: 2}
+  dungeons:
+  - {fileID: 11400000, guid: 42c7a9924e8564d47aac4c85b43e126d, type: 2}
+  - {fileID: 11400000, guid: 369a57e08c21b764cadb29ad0251585f, type: 2}
+  - {fileID: 11400000, guid: 94ff0bbef603bfe499b1fb7a2a98cfb5, type: 2}
+  - {fileID: 11400000, guid: 1ff16cce1042cf6449eb6b52bed475a6, type: 2}
+  dungeonBackdrop: {fileID: 2800000, guid: 5394d0a532b838f4bb1891e6d6b4dddf, type: 3}
+  hunterPortrait: {fileID: 2800000, guid: 7c3c80a45afa7024db194ce3fd758198, type: 3}
+  riftWatcherPortrait: {fileID: 2800000, guid: 54fcf2eb2b919a6468b421da052546df, type: 3}
+  nullWardenPortrait: {fileID: 2800000, guid: 8329736e96ca02b4288e784591630623, type: 3}
+  equipmentIconSheet: {fileID: 2800000, guid: e3622f5fba6b65f4ab0c25dcbabd4a2e, type: 3}
+  manaDevourerPortrait: {fileID: 2800000, guid: 37c51d473381cde4eabe546402f4292e, type: 3}
+  riftBerserkerPortrait: {fileID: 2800000, guid: 30b7c7e0db6a12244a823d1822b00128, type: 3}

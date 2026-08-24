@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: EquipmentSet_Entry
+  m_EditorClassIdentifier: StatusWindow.Runtime:StatusWindow.Progression:EquipmentSetDefinition
+  id: entry_set
+  displayName: "\uADE0\uC5F4 \uC785\uBB38\uC790"
+  description: "\uD6C8\uB828\uC6A9 \uAC80\uACFC \uC9C8\uD48D\uC758 \uC7A5\uD654:
+    \uACF5\uACA9\uB825 +4, \uC774\uB3D9 \uC9C0\uC5F0 -0.05\uCD08"
+  requiredEquipment:
+  - {fileID: 11400000, guid: b252b23298b90c64089d4928918b6a84, type: 2}
+  - {fileID: 11400000, guid: 9efda6a8bc3eb0b409b2b17a40d5da6c, type: 2}
+  damageBonus: 4
+  activeDamageBonus: 0
+  maxHealthBonus: 0
+  defenseBonus: 0
+  moveDelayReduction: 0.05
+  criticalChanceBonus: 0

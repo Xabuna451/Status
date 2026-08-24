@@ -1,4 +1,6 @@
 ﻿<Solution>
+  <Project Path="StatusWindow.Runtime.csproj" />
   <Project Path="Assembly-CSharp-Editor.csproj" />
+  <Project Path="StatusWindow.EditModeTests.csproj" />
   <Project Path="Assembly-CSharp.csproj" />
 </Solution>

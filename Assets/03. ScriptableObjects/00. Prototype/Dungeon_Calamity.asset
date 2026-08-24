@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: effec539c7af1b140965f07afdc7ea9b, type: 3}
+  m_Name: Dungeon_Calamity
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.DungeonDefinition
+  id: calamity_rift
+  displayName: "\uC7AC\uC559 \uADE0\uC5F4"
+  description: "\uC644\uC131\uB41C \uBE4C\uB4DC\uC640 \uD68C\uADC0 \uBCF4\uB108\uC2A4\uB97C
+    \uC2DC\uD5D8\uD558\uB294 \uACE0\uB09C\uB3C4 \uADE0\uC5F4\uC785\uB2C8\uB2E4."
+  requiredLevel: 8
+  floorCount: 5
+  floorTimeLimit: 28
+  baseKillTarget: 7
+  killTargetPerFloor: 5
+  baseEnemyHealth: 58
+  enemyHealthPerFloor: 32
+  enemyHealthPerKill: 4
+  enemyDamageBase: 12
+  enemyDamagePerFloor: 4
+  clearGoldReward: 180
+  clearExperienceReward: 120
+  maximumMasteryRank: 10
+  damageBonusPerMasteryRank: 0.01
+  enemies:
+  - {fileID: 11400000, guid: e22f885e3f9641d43aedd2d1e8999a56, type: 2}
+  - {fileID: 11400000, guid: eba184f3797646d44a857f02b818fd26, type: 2}
+  - {fileID: 11400000, guid: bf74c2beefb7d964a8083f9b53c74ccc, type: 2}
+  floorBoss: {fileID: 11400000, guid: bf74c2beefb7d964a8083f9b53c74ccc, type: 2}

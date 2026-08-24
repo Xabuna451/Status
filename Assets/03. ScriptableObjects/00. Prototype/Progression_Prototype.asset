@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c2deb641b2fc24ca2f08487676c08c, type: 3}
+  m_Name: Progression_Prototype
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.ProgressionDefinition
+  baseExperienceToLevel: 20
+  experienceIncreasePerLevel: 10
+  statPointsPerLevel: 3
+  baseDamage: 4
+  damagePerStrength: 2
+  baseAttackInterval: 1.1
+  attackIntervalReductionPerAgility: 0.05
+  minimumAttackInterval: 0.25
+  baseHealth: 40
+  healthPerWill: 10
+  baseMoveDelay: 0.55
+  moveDelayReductionPerAgility: 0.02
+  minimumMoveDelay: 0.05
+  activeDamagePerMagic: 4
+  criticalChancePerSense: 0.02
+  maximumCriticalChance: 0.75
+  maximumEquippedSkillCount: 4
+  rebirthRequiredLevel: 8
+  rebirthRequiredClears: 1
+  rebirthShardReward: 1
+  damageBonusPerShard: 0.1
+  goldBonusPerShard: 0.15

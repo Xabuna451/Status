@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427a0afe165d29f4095b4610d17fcc59, type: 3}
+  m_Name: Skill_IronHeart
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.SkillNodeDefinition
+  id: iron_heart
+  displayName: "\uAC15\uCCA0 \uC2EC\uC7A5"
+  description: "\uCD5C\uB300 \uCCB4\uB825 +50"
+  goldCost: 95
+  prerequisite: {fileID: 11400000, guid: fa0cc422f1901a443b8c9e61d0fb6716, type: 2}
+  damageBonus: 0
+  activeDamageBonus: 0
+  maxHealthBonus: 50
+  moveDelayReduction: 0
+  grantsExecute: 0

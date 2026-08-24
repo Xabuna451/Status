@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: Directive_Assault
+  m_EditorClassIdentifier: StatusWindow.Runtime:StatusWindow.Progression:CombatDirectiveDefinition
+  id: assault
+  displayName: "\uACF5\uC138 \uC9C0\uCE68"
+  description: "\uAE30\uBCF8 \uACF5\uACA9\uB825 +15%, \uCD5C\uB300 \uCCB4\uB825 -10%"
+  damageMultiplier: 1.15
+  maxHealthMultiplier: 0.9
+  moveDelayMultiplier: 1
+  criticalChanceBonus: 0

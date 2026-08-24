@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427a0afe165d29f4095b4610d17fcc59, type: 3}
+  m_Name: Skill_Overdrive
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.SkillNodeDefinition
+  id: overdrive
+  displayName: "\uD55C\uACC4 \uAC00\uC18D"
+  description: "\uAE30\uBCF8 \uACF5\uACA9\uB825 +12"
+  goldCost: 100
+  prerequisite: {fileID: 11400000, guid: 3cfd527ed566e0c409fcd44737e927bc, type: 2}
+  damageBonus: 12
+  activeDamageBonus: 0
+  maxHealthBonus: 0
+  moveDelayReduction: 0
+  grantsExecute: 0

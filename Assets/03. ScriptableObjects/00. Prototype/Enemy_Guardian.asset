@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 248dc27a5b8c1b1449a97c91c9e6c051, type: 3}
+  m_Name: Enemy_Guardian
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.EnemyDefinition
+  id: rift_guardian
+  displayName: "\uADE0\uC5F4 \uC218\uD638\uC790"
+  description: "\uCE35\uC758 \uB05D\uC744 \uC9C0\uD0A4\uB294 \uBCF4\uC2A4\uC785\uB2C8\uB2E4.
+    \uB192\uC740 \uCCB4\uB825\uACFC \uBCF4\uC0C1\uC744 \uAC00\uC9D1\uB2C8\uB2E4."
+  healthMultiplier: 2.2
+  damageMultiplier: 1.45
+  attackInterval: 1.35
+  goldMultiplier: 1.7
+  experienceMultiplier: 1.6
+  combatTrait: 4

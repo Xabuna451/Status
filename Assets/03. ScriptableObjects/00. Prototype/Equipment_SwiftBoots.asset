@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a18f440af1b5d06488c16a503e03b9a9, type: 3}
+  m_Name: Equipment_SwiftBoots
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.EquipmentDefinition
+  id: swift_boots
+  slot: 1
+  displayName: "\uC9C8\uD48D\uC758 \uC7A5\uD654"
+  description: "\uC774\uB3D9 \uC9C0\uC5F0 \uAC10\uC18C"
+  goldCost: 60
+  damageBonus: 0
+  activeDamageBonus: 0
+  maxHealthBonus: 0
+  defenseBonus: 0
+  moveDelayReduction: 0.18
+  criticalChanceBonus: 0
+  maximumUpgradeLevel: 5
+  upgradeBaseGoldCost: 25
+  bonusIncreasePerLevel: 0.15

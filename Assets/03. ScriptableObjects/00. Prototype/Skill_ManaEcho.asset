@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 427a0afe165d29f4095b4610d17fcc59, type: 3}
+  m_Name: Skill_ManaEcho
+  m_EditorClassIdentifier: Assembly-CSharp::StatusWindow.Progression.SkillNodeDefinition
+  id: mana_echo
+  displayName: "\uB9C8\uB825 \uBA54\uC544\uB9AC"
+  description: "\uC790\uB3D9 \uC561\uD2F0\uBE0C \uC2A4\uD0AC \uD53C\uD574 +35"
+  goldCost: 110
+  prerequisite: {fileID: 11400000, guid: 9eb50978739bcad42ad5b103cdd7be07, type: 2}
+  damageBonus: 0
+  activeDamageBonus: 35
+  maxHealthBonus: 0
+  moveDelayReduction: 0
+  grantsExecute: 0
